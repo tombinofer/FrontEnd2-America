@@ -1,0 +1,73 @@
+&:nth-child(odd)
+
+solo los elementos impares tengan un estilo
+
+&:nth-child(even)
+
+solo los elementos pares
+
+
+
+{{{{{{{{{{{{{{{{{{{{{{{{{{{
+
+
+
+PARA TRAER UN ICONO TENGO QUE CAMBIARMEE 
+
+&:before (uso pseudo - elemento)
+
+content "(el codigo que sea)"
+
+font-family "iconitos" (en este caso)!
+
+{{{{{{{{{{{{{{{{{{{{{{{{{{{
+
+
+
+
+overflow hidden (me hace que los objetos flotantes noses salgan de su contenido.. necesito ponerselo a la caja contenedora de los 2)
+
+{{{{{{{{{{{{{{{{{{{{{{{{{{{
+
+
+
+text-decoration none (es para sacarle el subrayado a las cosas)
+
+{{{{{{{{{{{{{{{{{{{{{{{{{{{
+
+
+
+stylus -u nib -c -w estilos.styl (se compilan juntos-- )
+
+-c (te manda todo comprimido el codigo).
+-w (esta mirando el archivo, para compilarlo automaticamente).
+
+
+para la consolaa!! ahi que ir al lado donde este el archivo 
+
+----.styl  para compilarlo al ----.css
+
+
+
+}}}}}}}}{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
+ 
+C:\Users\Fernando\Mis documentos\Github\FrontEnd2-America\css>stylus puls4.styl -c -w
+
+
+{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
+
+
+
+Un jpg a 100 x 100 exportado al 90% calidad 
+
+
+		TIENE MAS PESO Q
+
+ 
+ un jpg 200 x 200 exportado al 50% de calidad..
+
+
+
+hay que agarrar un jpg EN TAMAÑO NATIVO y exportarlo al doble de la resolucion al 50 % de calidad.!! 
+
+
